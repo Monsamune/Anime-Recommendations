@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Attack on Titan Page</title>
+<link rel="stylesheet" href="Part1CSS.css">
+<script src="SubFeeJS.js"></script>
+<script src="Recommendations.js"></script>
+</head>
+
+<!-- Head containing the link to the CSS Document -->
+
+<body>
+<div class="FirstDiv">
+<p> <br/><p>
+<h1> Attack on Titan - Shingeki no Kyojin
+</h1>
+<h2> Created by Hajime Isayam - Animated by Studio WIP / Studio MAPPA </h2>
+<p> Action Fiction/Dark Fantasy/Apocalyptic and Post-Apocalyptic Fiction </p>
+<p>When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that stopped the giants in their tracks. But the safety they have had for so long is threatened when a colossal Titan smashes through the barriers, causing a flood of the giants into what had been the humans' safe zone. During the carnage that follows, soldier Eren Jaeger sees one of the creatures devour his mother, which leads him to vow that he will kill every Titan. He enlists some friends who survived to help him, and that group is humanity's last hope for avoiding extinction at the hands of the monsters.
+</p>
+</div>
+
+<!-- Header Div - Attack on Titan / Genres / Summary -->
+
+<div class="SecDiv">
+<p> <br/><p>
+
+<!-- AOT Div containing 3 other divs. -->
+
+<div class="ThrDiv">
+<h2> Reviews </h2>
+<p><a href="https://www.crunchyroll.com/attack-on-titan/reviews" target="_blank" title="Crunchyroll Reviews"> 4.8/5 - Crunchyroll </a></p>
+<p><a href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin/reviews" target="_blank" title="MyAnimeList Reviews"> 8.5/10 - MyAnimeList </a></p>
+<p><a href="https://www.imdb.com/title/tt2560140/reviews?ref_=tt_ql_3" target="_blank" title="IMDb Reviews"> 8.9/10 - IMDb </a></p>
+
+<p> <br/><p> <br/><p> <br/><p> 
+<h2> Recommendations </h2>
+
+<h4> If you like Action Fiction, you may like... </h4>
+<p> One Piece </p>
+<p> My Hero Academia </p>
+<p> Naruto Shippuden </p>
+
+<h4> If you like Dark Fantasy, you may like... </h4>
+<p> Fullmetal Alchemist Brotherhood </p>
+<p> Berserk </p>
+<p> God Eater </p>
+
+<h4> If you like Apocalyptic/Post-Apocalyptic Fiction, you may like... </h4>
+<p> Neon Genesis Evangelion </p>
+<p> Gurren Lagann </p>
+<p> The Promised Neverland </p>
+
+<h4>Top Recommendations</h4>
+<button onclick="AOTAnimeRecs()"> Click </button>to see my top <input type="text" id="input"> Anime Recommendations based on Attack on Titan:
+<p id="AOT">
+</p>
+
+
+</div>
+
+<!-- Reviews / Recommendations Div -->
+
+<div class="FourDiv">
+
+<h2> Wiki/Information </h2>
+<p><a href="https://attackontitan.fandom.com/wiki/Attack_on_Titan_Wiki" target="_blank" title="Attack on Titan Wiki"> Attack on Titan Wiki </a></p>
+<p> This fandom wikipedia page is a community ran page dedicated to both the Attack on Titan anime, manga, and other related works. They have a striving discord community, and twitter page
+the wiki also posts constant episode release date and manga chapter release date updates, as well as fun facts about the work itself, such as character birthdays and memorable dates.
+</p>
+
+<h2> Anime Trailer </h2>
+<iframe width="750" height="500"
+src="https://www.youtube.com/embed/MGRm4IzK1SQ">
+</iframe>
+
+</div>
+
+<!-- Wiki/Information / Youtube Video w/ Trailer -->
+
+<div class="FifDiv">
+
+<h2> Where to Watch </h2>
+<p> Attack on Titan is available to watch on Hulu, Youtube TV, Tubi, Funimation, and Crunchyroll </p>
+
+<p><a href="https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88" target="_blank" title="AOT on Hulu"> Hulu </a></p>
+<p> Hulu offers a wide variety of monthly subscription options, a $5.99 option for Hulu, $11.99 for Hulu with no ads, $65.99 for Hulu + Live TV, and $70.99 for Hulu with no Ads + Live TV </p>
+
+<p><a href="https://tv.youtube.com/browse/attack-on-titan-UCnhIGDfvdkUOsNiob5LmB7A" target="_blank" title="AOT on Youtube TV"> Youtube TV </a></p>
+<p> Youtube TV is a cable alternative, so it's price is set at $65 a month. It may not be as appealing as the other options, but definitely an option to consider if you are looking for a cable alternative </p>
+
+<p><a href="https://tubitv.com/series/2318/attack-on-titan-subtitled" target="_blank" title="AOT on Tubi"> Tubi </a></p>
+<p> Tubi only has the first season of Attack on Titan available of the current 4 seasons, but you can watch it for free, which may be a good option if you want to check it out without comitting to a service </p>
+
+<p><a href="https://www.funimation.com/shows/attack-on-titan/" target="_blank" title="AOT on Funimation"> Funimation </a></p>
+<p> Funimation has a few monthly subscription plans, a $5.99 premium plan, a $7.99 premium plus plan, which gives access to exclusive deals and offline streaming, and a $99.99 yearly plan, which is a bundle on the premium plus plan but also includes yearly gifts/deals. </p>
+
+<p><a href="https://www.crunchyroll.com/attack-on-titan" target="_blank" title="AOT on Crunchyroll"> Crunchyroll </a></p>
+<p> Crunchyroll has 3 monthly subscription plans, a $7.99 "Fan" plan, a $9.99 "Mega Fan" plan, which allows for offline viewing and 4 concurrent streams, and a $14.99 "Ultimate Fan" plan that allows for member-only exclusive rewards and more concurrent streams </p>
+
+<p> Please enter the subscription price. </p>
+<input type="text" id="SubP" />
+<input type="button" value="Check" onclick="SubPlans()" />
+<p> Please enter the number of months you would like to subscribe for. </p>
+<input type="text" id="SubL" />
+<input type="button" value="Check" onclick="SubPlans()" />
+
+<p id ="FinalCost"> The price for that many months is: </p>
+
+
+</div>
+
+<!-- Where to Watch Div -->
+
+</div>
+
+
+
+</body>
+</html>

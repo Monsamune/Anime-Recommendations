@@ -1,0 +1,36 @@
+function Subscription(){
+  
+
+var subFee = document.getElementById('SubPrice').value;
+	
+alert("The hourly wage is " + subFee);
+
+var monthsChosen = document.getElementById('MonthPlan').value;
+
+alert("The hours per week are " + MonthPlan);
+
+
+var subFeeCopy = subFee
+
+var monthsChosenCopy = MonthPlan
+
+var subFeeCopy = parseFloat()
+
+var monthsChosenCopy = parseFloat()
+
+var OverallPrice = (subFee * MonthPlan)
+
+
+var unDef = undefined
+
+if (OverallPrice > 200){
+unDef = "The plan is too expensive.";
+} else if (OverallPrice > 75 && OverallPrice < 150){
+unDef = "The plan is reasonable";
+} else {
+unDef ="This is a great plan for me.";
+}
+
+document.getElementById("OvrPrice").innerHTML = "The price is : $" + OverallPrice + ".  " + unDef; 
+
+}

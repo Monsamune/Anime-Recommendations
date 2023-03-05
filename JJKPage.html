@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jujutsu Kaisen Page</title>
+<link rel="stylesheet" href="Part1CSS.css">
+<script src="SubFeeJS.js"></script>
+<script src="Recommendations.js"></script>
+</head>
+
+<!-- Head containing the link to the CSS Document -->
+
+<body>
+<div class="FirstDiv">
+<p> <br/><p> 
+<h1> Jujutsu Kaisen
+</h1>
+<h2> Created by Gege Akutami - Animated by Studio MAPPA </h2>
+<p> Adventure Fiction/Dark Fantasy/Occult Fiction </p>
+<p>The story of Jujutsu Kaisen is set in a world where Cursed Spirits feed on unsuspecting humans and fragments of the legendary and feared demon Ryomen Sukuna have been lost and scattered about.
+Should any curse consume Sukuna's body parts, the power they gain could destroy the world as we know it. Fortunately, there exists a mysterious school of Jujutsu Sorcerers who exist to protect the precarious existence of the living from the supernatural!
+</p>
+</div>
+
+<!-- Header Div - Jujutsu Kaisen / Genres / Summary -->
+
+<div class="SecDiv">
+<p> <br/><p>
+
+<!-- JJK Div containing 3 other divs. -->
+
+<div class="ThrDiv">
+<h2> Reviews </h2>
+<p><a href="https://www.crunchyroll.com/jujutsu-kaisen/reviews" target="_blank" title="Crunchyroll Reviews"> 4.8/5 - Crunchyroll </a></p>
+<p><a href="https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV" target="_blank" title="MyAnimeList Reviews"> 8.62/10 - MyAnimeList </a></p>
+<p><a href="https://www.imdb.com/title/tt12343534/" target="_blank" title="IMDb Reviews"> 8.7/10 - IMDb </a></p>
+
+<p> <br/><p> <br/><p> <br/><p> 
+<h2> Recommendations </h2>
+
+<h4> If you like Action Fiction, you may like... </h4>
+<p> One Punch Man </p>
+<p> JoJo's Bizarre Adventure </p>
+<p> Hunter x Hunter </p>
+
+<h4> If you like Dark Fantasy, you may like... </h4>
+<p> Tokyo Ghoul </p>
+<p> Overlord </p>
+<p> Goblin Slayer </p>
+
+<h4> If you like Occult Fiction, you may like... </h4>
+<p> Mushishi </p>
+<p> Mob Psycho 100 </p>
+<p> Monogatari </p>
+
+<h4>Top Recommendations</h4>
+<button onclick="JJKAnimeRecs()"> Click </button>to see my top <input type="text" id="input"> Anime Recommendations based on Jujutsu Kaisen:
+<p id="JJK">
+</p>
+
+
+</div>
+
+<!-- Reviews / Recommendations Div -->
+
+<div class="FourDiv">
+
+<h2> Wiki/Information </h2>
+<p><a href="https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Kaisen_Wiki" target="_blank" title="Jujutsu Kaisen Wiki"> Jujutsu Kaisen Wiki </a></p>
+<p> This fandom wikipedia page is a community ran page dedicated to both the Jujutsu Kaisen anime and manga. They have a striving discord community and subreddit dedicated to the anime as well.
+The wiki also posts constant episode release date and manga chapter release date updates, as well as fun facts about the work itself, such as character birthdays and memorable dates.
+They also include an affiliate section for other wiki pages that they work with.
+</p>
+
+<h2> Anime Trailer </h2>
+<iframe width="750" height="500"
+src="https://www.youtube.com/embed/pkKu9hLT-t8">
+</iframe>
+
+</div>
+
+<!-- Wiki/Information / Youtube Video w/ Trailer -->
+
+<div class="FifDiv">
+
+<h2> Where to Watch </h2>
+<p> Jujutsu Kaisen is available to watch on Crunchyroll and HBO Max </p>
+
+<p><a href="https://www.crunchyroll.com/attack-on-titan" target="_blank" title="JJK on Crunchyroll"> Crunchyroll </a></p>
+<p> Crunchyroll has 3 monthly subscription plans, a $7.99 "Fan" plan, a $9.99 "Mega Fan" plan, which allows for offline viewing and 4 concurrent streams, and a $14.99 "Ultimate Fan" plan that allows for member-only exclusive rewards and more concurrent streams </p>
+
+<p><a href="https://play.hbomax.com/page/urn:hbo:page:GX8fnVgocBIZDKQEAAABF:type:series" target="_blank" title="JJK on HBO Max"> HBO Max </a></p>
+<p> HBO Max has a single subscription plan of $14.99 a month, with it's main selling point being that it's 3 dollars less than a premium Netflix subscription, and access to ad-free content.
+HBO Max offers the English subtitled version of Jujutsu Kaisen on their platform.</p>
+
+<p> Please enter the subscription price. </p>
+<input type="text" id="SubP" />
+<input type="button" value="Check" onclick="SubPlans()" />
+<p> Please enter the number of months you would like to subscribe for. </p>
+<input type="text" id="SubL" />
+<input type="button" value="Check" onclick="SubPlans()" />
+
+<p id ="FinalCost"> The price for that many months is: </p>
+
+</div>
+
+<!-- Where to Watch Div -->
+
+</div>
+
+
+
+</body>
+</html>
